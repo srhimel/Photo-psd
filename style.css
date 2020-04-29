@@ -1,0 +1,407 @@
+/************** 0. Typography ***********/
+
+
+@font-face {
+	font-family: "gothambold";
+	src: url('fonts/Gotham Rounded Bold.woff') format('woff');
+}
+@font-face {
+	font-family: "gothamlight";
+	src: url('fonts/Gotham Rounded Light.woff') format('woff');
+}
+@font-face {
+	font-family: "gothambook";
+	src: url('fonts/gothamroundedbook.woff') format('woff');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: gothambold;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 960px
+}
+
+/************** 1. Header Area ********/
+.header-area {
+	text-align: center;
+	background: url('images/phototime.jpg');
+	background-size: cover;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+/***** 1.1 main menu ******/
+
+.main-menu {
+	margin: 30px 0;
+}
+.main-menu ul{
+	display: inline;
+}
+.main-menu ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+.main-menu ul li img{
+	margin: 0 45px;
+}
+.main-menu ul li a {
+	text-transform: uppercase;
+	font-family: gothambold;
+	color: #FFFFFF;
+	font-size: 18px;
+	transition: .5s;
+	letter-spacing: 2px;
+}
+.main-menu ul li:hover a {
+	color: #16A086;
+}
+
+
+/****** 1.2 main content *******/
+
+
+.main-content {
+	margin:180px 0;
+}
+.main-content h2{
+	color: #FFFFFF;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.main-content p{
+	font-family: gothamlight;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin: 0 0 25px 0;
+}
+
+/*****butteon ******/
+
+
+.button a {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: gothambold;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 1px solid #16A086;
+	padding: 14px 30px;
+	background: #16A086;
+	display: inline-block;
+	border-radius: 5px;
+	transition: .5s;
+}
+.button a:hover{
+	background: #FFFFFF;
+	color: #16A086;
+}
+
+/******1.3 main social menu ******/
+.main-social{
+	padding-top: 30px;
+}
+
+.main-social ul{
+	display: inline;
+}
+.main-social ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+.main-social ul li a {
+	font-size: 25px;
+	color: #FFFFFF;
+	transition: .5s;
+}
+.main-social ul li:hover a {
+	color: #16A086;
+}
+    
+
+/************** 2. secound section **********/
+.secound {
+	background: #F5F6F8;
+	overflow: hidden;
+	padding-top: 60px;
+}
+.seccontent h3 {
+	color: #16A086;
+	
+}
+
+.seccontent p{
+	font-family: gothambook;
+	font-size: 12px;
+	color: #424242;
+	letter-spacing: 2px;
+	line-height:2;
+	padding: 25px 0;
+	font-weight: normal;
+}
+
+
+.seccontent {
+	background: url('images/just hand.png');
+	background-repeat: no-repeat;
+	background-size: 65% auto;
+	background-position: top right;
+	padding-bottom: 60px;
+	overflow: hidden;
+	
+}
+
+/****** 3. third section ******/
+
+.third {
+	overflow: hidden;
+	padding-top: 150px;
+}
+.mobileback {
+	background: url('images/mobile.png');
+	background-position: left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.thicontent {
+	float: right;
+	overflow: hidden;
+}
+.thicontent h3 {
+	margin-top: 0;
+	color: #16A086;
+	
+}
+
+.thicontent p{
+	font-family: gothambook;
+	font-size: 12px;
+	color: #424242;
+	letter-spacing: 2px;
+	line-height:2;
+	padding: 25px 0;
+	font-weight: normal;
+}
+
+.slider {
+	margin: 30px 0;
+	font-family: gothambook;
+	font-size: 13px;
+}
+.arrow a{
+	color: #000000;
+	font-size: 30px;
+	letter-spacing: 12px;
+	transition: .5s;
+}
+.arrow a:hover{
+	color: #16A086;
+}
+
+/****** 4. fourth section *******/
+
+
+
+
+.fourth{
+	background: #F5F6F8;
+	overflow: hidden;
+	padding-top: 60px;
+	
+	
+	
+}
+
+.slider2{
+	position: absolute;
+	left: 82%;
+	z-index: 1;
+}
+.imagearea {
+	overflow: hidden;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.description {
+	overflow: hidden;
+	width: 30%;
+	height: auto;
+	text-align: center;
+	float: left;
+	padding-top: 20px;
+}
+.description h3 {
+	color: #424242;
+}
+.description p{
+	font-family: gothambook;
+	font-size: 11px;
+	color: #424242;
+	letter-spacing: 2px;
+	line-height:1;
+	font-weight: normal;
+}
+.col-2-1 img {
+	width: 100%;
+	height: auto;
+}
+.col-2-1 {
+	float: left;
+	overflow: hidden;
+	margin-right: 4%;
+	width: 33%;
+	height: auto;
+	overflow: hidden;
+}
+.col-2-1:last-child{
+	margin-right: 0;
+	overflow: hidden;
+}
+
+
+/************ 5. subscribe area ***********/
+
+.subscribe{
+	background: url('images/phototime3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+	padding: 300px 0;
+}
+.subcontent h3{
+	color: #FFFFFF;
+	
+}
+.subcontent input {
+	border: 1px solid #FFFFFF;
+	padding: 15px 10px;
+	border-radius: 3px 0 0 3px;
+	color: black;
+	font-family: gothambold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.subcontent button {
+	border:  1px solid #16A086;
+	padding: 15px 20px;
+	border-radius: 0 3px 3px 0;
+	color: #FFFFFF;
+	background: #16A086;
+	margin-left: -5px;
+	margin-bottom: 2px;
+}
+
+/********** 6. download section **************/
+
+.download {
+	background: #F5F6F8;
+	overflow: hidden;
+	text-align: center;
+	padding: 90px 0;
+}
+
+.download h3,
+.download h5 {
+	color: #424242;
+}
+.download h5 {
+	font-family: gothambook;
+	margin-bottom: 50px;
+}
+.dfull {
+	width: 70%;
+	margin: auto;
+}
+.dcol-1-2 {
+	width: 45%;
+	margin-right: 5%;
+	float: left;
+	overflow: hidden;
+	transition: 1s;
+}
+.dcol-1-2:hover{
+	transform: translate(-20px) rotate(20deg) ;
+}
+.dcol-1-2:hover:last-child{
+	transform: translate(20px) rotate(-20deg) ;
+}
+.dcol-1-2 a {
+	border:  1px solid #1BBC9B;
+	padding: 15px 30px;
+	border-radius: 3px 0 0 3px;
+	color: #FFFFFF;
+	background: #1BBC9B;
+	font-family: gothambold;
+	text-transform: uppercase;
+	font-size: 18px;
+	display: inline-block;
+}
+.dcol-1-2 button {
+	border:  1px solid #16A086;
+	padding: 16px 20px;
+	border-radius: 0 3px 3px 0;
+	color: #FFFFFF;
+	background: #16A086;
+	margin-left: -5px;
+	margin-bottom: 2px;
+	font-size: 18px;
+}
+
+/********** 7. footer area ************/
+.footer {
+	overflow: hidden;
+	padding-top: 50px;
+}
+.image {
+	float: right;
+	overflow: hidden;
+	
+}
+.copyright ul {
+	display: inline;
+}
+.copyright ul li {
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+.copyright ul li a{
+	color: #424242;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: gothambold;
+	
+	
+}
+.copyright ul li:nth-child(2n){
+	border-right: 2px solid #1BBC9B;
+	border-left: 2px solid #1BBC9B;
+}
+.copyright ul li:nth-child(2n) a{
+	margin: 0 10px;
+}
+.copyright p {
+	color: #424242;
+	font-size: 15px;
+	font-family: gothambold;
+}
